@@ -1,0 +1,47 @@
+Exercicio de SQL
+
+// CRIAR UM BANCO DE DADOS
+create database cadastro;
+
+// CRIAR UMA TABELA
+create table contatos(
+id int not null,
+nome varchar (30),
+telefone int,
+aniversario date,
+sexo bit,
+altura decimal (3,2),
+salario float,
+adulto bit,
+primary key (id)
+);
+
+
+
+CRIAR USAR OS TIPOS
+
+// INSERT
+
+insert into contatos values
+(1, 'Paulo Marne', 000000000, '1982-01-13', 0, 1.7,  200000, 0),
+(2, 'Henrique',    000000001, '1987-04-13', 0, 1.82, 1500,   0),
+(3, 'Claudineia',  000000002, '1991-07-04', 1, 1.70, 4000,   0);
+
+
+// SELECT
+
+select * from contatos;
+
+
+
+UPDATE 
+
+
+
+DELETE 
+
+
+
+
+(CRUD) CREATE READ UPDATE DELETE
+
